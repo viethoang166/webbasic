@@ -1,0 +1,140 @@
+* {
+margin: 0;
+padding : 0;
+box-sizing: border-box;
+}
+
+main{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background : linear-gradient(to left top, #64c5fd, #69f5c6);
+    display : flex ;
+    align-items : center;
+    justify-content: center;
+    
+}
+
+.glass {
+    min-height: 70vh;
+    background: white ;
+    width: 60% ;
+    border-radius: 6rem;
+    background : linear-gradient(to right top, #5db1ffce, #7fffdf7e);
+    backdrop-filter: blur(0.5 rem);
+    z-index: 2;
+    display : flex;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.circle1 {
+    
+    background : linear-gradient(to right bottom, #93ff1873, #817fff2f);
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    z-index:1;
+    border-radius: 50%;
+}
+.circle2 {
+    
+    background : linear-gradient(to left top, #00ccff75, #cb93ff9f);
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    z-index:1;
+    border-radius: 50%;
+}
+.circle3 {
+    
+    background : linear-gradient(to top, #ff5dff81, #0400ff5d);
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    z-index:1;
+    border-radius: 50%;
+}
+
+.circle4 {
+    
+    background : linear-gradient(to right , #00ffd5e3, #5654f3ee);
+    height: 35rem;
+    width: 35rem;
+    position: absolute;
+    z-index:1;
+    border-radius: 50%;
+    
+}
+
+.circle1 {
+    bottom : 5%;
+    right: 10%;
+    filter: blur(0.05rem);
+}
+.circle2 {
+    top : 15%;
+    left: 13% ;
+}
+.circle3 {
+    bottom : 1%;
+    left: 2%;
+    filter: blur(0.05rem);
+}
+.circle4 {
+    top : -30%;
+    right : -15%;
+    clip-path: circle(400px at right top 600px);
+}
+
+.dashboard {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background : linear-gradient(to right top, #03f5e1bd, #ff53b7a9);
+    border-radius: 6rem;
+}
+
+.info  {
+    flex: 3;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container { 
+    border-radius: 2rem;
+    background : linear-gradient();
+    border :3px solid orange;
+    width: 400px;
+    height:250px;
+    overflow-y:auto;
+    overflow-x:auto;
+    
+
+}
+
+
+
+.link {
+    display : flex;
+    margin : 2rem 2rem;
+    padding : 1rem 1rem;
+    align-items: center; 
+}
+
+.link h2{
+    padding : 0rem 2rem;
+    color : #426696 ;
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+a:link
+{
+    color: white ;
+    background-color:transparent;
+    text-decoration:none;
+}
